@@ -1,0 +1,260 @@
+/*
+    Document   : css/custom．css
+    Created on : 2014-09-10 01:37 PM
+    Author     : ohshitdacops
+    Description: Custom templating features
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+	position: fixed;
+	z-index: 3;
+	width: 100%;
+	height: 70px;
+}
+.headerbackground {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 70px;
+	background: #2b2b2b;
+}
+.logo {
+	display: block;
+	position: relative;
+	float: left;
+	width: auto;
+	text-shadow: 1px 1px #333;
+}
+.loginButton {
+	float: right;
+	width: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.loginButton a {
+	text-decoration: none;
+}
+#cover-container {
+	position: relative;
+	height: 100vh !important;
+	width: 100% !important;
+	z-index: 2;
+    overflow: hidden;
+}
+.cover {
+	position: absolute;
+	z-index: 2;
+	height: 100vh !important;
+	width: 100%;
+	overflow: hidden;
+}
+#background {
+    position: initial;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/036.JPG');
+    background-size: cover;
+}
+.cover .wrapper {
+	position: absolute;
+	height: 100vh !important;
+	width: 100%;
+}
+.cover .wrapper .inner-wrapper {
+	display: table;
+	position: relative;
+	height: 100vh !important;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.cover .wrapper .inner-wrapper .container {
+	display: table-cell;
+	position: relative;
+	height: 30vh;
+	width: 30%;
+	vertical-align: middle;
+}
+.cover .wrapper .inner-wrapper .container .content {
+	display: relative;
+	height: auto;
+	color: white;
+	text-align: center;
+}
+.filler {
+	position: relative;
+	height: 1000px;
+}
+.white {
+	color: whitesmoke !important;
+	border: 1px solid whitesmoke !important;
+}
+.spacer {
+	position: static;
+	height: 100vh !important;
+	width: 100% !important;
+}
+
+//  Navbars and such
+ul {
+	width: auto;
+}
+li {
+	float: left;
+	width: auto;
+	margin: 5px 25px 5px 25px;
+}
+.navbar-nav {
+	float: right;
+	display: block;
+	width: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: #AAA;
+	font-size: 24px;
+	font-weight: 100;
+}
+.navbar-nav li a {
+	padding: 20px 10px 20px 10px;
+	color: inherit;
+	float: right;
+}
+.navbar {
+	border-style: none;
+}
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.navbar-wrapper  .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper > .navbar {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper  .navbar  .container {
+  width: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: auto;
+}
+.img-circle {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: grey;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 200px;
+    height: 200px;
+}
+#learn.container {
+    margin-top: 25px;
+    padding-top: 125px;
+}
+.filler_100 {
+    height: 100px;
+}
+.filler_250 {
+    height: 250px;
+}
+.filler_500 {
+    height: 500px;
+}
+.filler_1000 {
+    height: 1000px;
+}
+.button {
+    text-decoration: none !important;
+}
+#header_fixed {
+    position: fixed;
+    z-index: 3;
+    height: 80px;
+    width: 100%;
+}
+.header_container {
+    padding-left: 10%;
+    padding-right: 10%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.header_container h2{
+    float: left;
+}
+#header_fixed.deactive {
+    background: none;
+    -webkit-transition: all ease-in-out 0.5s;
+       -moz-transition: all ease-in-out 0.5s;
+         -o-transition: all ease-in-out 0.5s;
+            transition: all ease-in-out 0.5s;
+}
+#header_fixed.active {
+    background: whitesmoke;
+    -webkit-transition: all ease-in-out 0.5s;
+       -moz-transition: all ease-in-out 0.5s;
+         -o-transition: all ease-in-out 0.5s;
+            transition: all ease-in-out 0.5s;
+}
+.header_container ul {
+    float: right;
+}
+.header_container ul li {
+    list-style-type: none;
+}
+.header_container ul li a {
+    color: #333 !important;
+    border-bottom: 1px #333 dotted;
+}
+.header_container ul li a:active {
+    text-decoration: none !important;
+}
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+}
+.footer ul {
+    padding: 0;
+    width: 246px;
+    min-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer ul li {
+    margin: 0;
+    height: auto;
+    list-style-type: none;
+}
+.footer p {
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+.footer .fa {
+    padding: 20px;
+    color: #bbb;
+    -webkit-transition: all ease-in-out 0.3s;
+       -moz-transition: all ease-in-out 0.3s;
+         -o-transition: all ease-in-out 0.3s;
+            transition: all ease-in-out 0.3s;
+}
+.footer .fa:hover {
+    color: #777;
+    text-decoration: none;
+    -webkit-transition: all ease-in-out 0.3s;
+       -moz-transition: all ease-in-out 0.3s;
+         -o-transition: all ease-in-out 0.3s;
+            transition: all ease-in-out 0.3s;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "skeljs",
+  "homepage": "https://github.com/n33/skeljs",
+  "version": "0.4.9",
+  "_release": "0.4.9",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.4.9",
+    "commit": "08183311a45f9e58d83651529d355f0e4dc5d998"
+  },
+  "_source": "git://github.com/n33/skeljs.git",
+  "_target": "~0.4.9",
+  "_originalSource": "git://github.com/n33/skeljs/",
+  "_direct": true
+}
