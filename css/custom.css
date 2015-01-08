@@ -147,8 +147,12 @@ li {
   padding-right: 50px;
   height: auto;
 }
-.img-circle {
-    margin-top: 30px;
+#learn.container {
+    margin-top: 25px;
+    padding-top: 125px;
+}
+.learn-circle {
+	margin-top: 30px;
     margin-bottom: 30px;
     position: relative;
     background-color: grey;
@@ -156,10 +160,20 @@ li {
     margin-right: 20%;
     width: 200px;
     height: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
-#learn.container {
-    margin-top: 25px;
-    padding-top: 125px;
+#learn-circle-1 {
+	background-image: url('img/001.jpg');
+	background-size: 350px;
+}
+#learn-circle-2 {
+	background-image: url('img/005.jpg');
+	background-size: 350px;
+}
+#learn-circle-3 {
+	background-image: url('img/082.jpg');
+	background-size: 350px;
 }
 .filler_100 {
     height: 100px;
